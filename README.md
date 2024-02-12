@@ -17,7 +17,3 @@ yarn dev
 | ---- | ---- |
 |  /  |  ISR  |
 |  /articles/[id]  |  SG  |
-
-
-リダイレクト設定すればISRで行けるかも  
-https://zenn.dev/jaga/articles/redirect-settings-automation-on-amplify-hosting

@@ -104,7 +104,8 @@
         "src/components/Header.jsx",
         "src/components/contact/Input.jsx",
         "src/components/contact/Input.jsx",
-        "src/components/contact/Input.jsx"
+        "src/components/contact/Input.jsx",
+        "src/config/meta/constMeta.js"
     ],
     "exclude": ["node_modules"]
 }

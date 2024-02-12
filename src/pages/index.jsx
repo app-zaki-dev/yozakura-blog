@@ -8,6 +8,7 @@ import ContentsWrapper from "@/components/ContentsWrapper";
 import ArticleCard from "@/components/articles/ArticleCard";
 import OtherArticle from "@/components/articles/OtherArticle";
 import Loading from "@/components/Loading";
+import { topMeta } from "@/config/meta/constMeta";
 
 export default function Home({ articles }) {
     const [selectArticles, setSelectArticles] = useState(articles);
@@ -30,7 +31,7 @@ export default function Home({ articles }) {
 
     return (
         <>
-            <PageSEO title="トップページ" />
+            <PageSEO title={topMeta.title} description={topMeta.description} />
             {/* カテゴリーゾーン */}
             <div className="category">
                 <div className="category-inner">
